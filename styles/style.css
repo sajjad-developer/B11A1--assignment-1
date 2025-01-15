@@ -1,0 +1,171 @@
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    max-width: 1280px;
+    max-height: 560px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding: 117px;
+    padding-left: 59.99px;
+    padding-right: 59.99px ;
+    /* gap: 64px; */
+}
+
+.banner-text{
+    margin-right: 64px ;
+}
+
+/* shared style */
+
+*{
+    font-family: "Fira Sans", serif;
+    
+}
+
+.btn-primary{
+    background-color: rgba(0, 106, 80, 1);
+}
+
+.btn-common{
+  border-radius: 8px;
+  padding: 11px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600px;
+  border: none;
+}
+
+.card-description-common{
+    font-weight: 400;
+    font-size: 16px;
+} 
+
+.common-margin{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* .common-background-color{
+    background-color: #FFFFFF;
+} */
+
+.btn-decoration{
+    border-radius: 8px;
+}
+
+.container-shape{
+    border-radius: 16px;
+}
+
+.card-name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+
+
+
+/* banner title style */
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+/* banner description style */
+.banner-description{
+    color: rgba(14, 14, 14, 1);
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-size: 56px;
+    width: 622px;
+    height: 201px;
+}
+
+/* button style */
+.first-btn{
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.feature{
+    margin-top: 484px;
+}
+
+ .feature-title{
+    font-weight: bold;
+    font-size: 40px;
+ }   
+
+ .feature-description{
+    font-weight: 400;
+    font-size: 16px;
+ }
+
+ section ul{
+    display: flex;
+    list-style-type: none;
+ }
+
+ #container-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    margin-left: -40px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+ }
+
+ #container-2{
+    background-color: rgba(198, 228, 214, 1);
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+ }
+
+ #container-3{
+    background-color: rgba(247, 235, 207, 1);
+    margin-right: 20px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+ }
+ 
+ .container{
+    gap: 24px;
+ }
+
+ #card-description-1{
+    margin-bottom: 24px;
+ }
+
+ #card-description-2{
+    margin-bottom: 48px;
+ }
+
+ #card-description-3{
+    margin-bottom: 64px;
+ }
+
+ #btn-decoration-1{
+    background-color: rgba(84, 144, 245, 1);
+ }
+
+ #btn-decoration-2{
+    background-color: rgba(9, 161, 92, 1);
+ }
+
+ #btn-decoration-3{
+    background-color: rgba(255, 194, 57, 1);
+ }
+    
