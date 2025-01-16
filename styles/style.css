@@ -482,4 +482,7 @@ button:hover{
 
 .subscription{
     background-color: rgba(198, 228, 214, 1);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 395px;
 }
