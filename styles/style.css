@@ -418,3 +418,34 @@ form input[type="text"]::placeholder{
     font-size: 16px;
     font-weight: 400;
 }
+
+
+button:hover{
+    background-color: chartreuse;
+    transition: 2s;
+}
+
+#container-1:hover{
+    background-color: springgreen;
+    transition: 2s;
+}
+
+#container-2:hover{
+    background-color: springgreen;
+    transition: 2s;
+}
+
+#container-3:hover{
+    background-color: springgreen;
+    transition: 2s;
+}
+
+.donate-amount:hover{
+    background-color: springgreen;
+    transition: 2s;
+}
+
+donate-color-2:hover{
+    background-color: blue;
+    transition: 2s;
+}
