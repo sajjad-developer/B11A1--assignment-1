@@ -449,3 +449,33 @@ donate-color-2:hover{
     background-color: blue;
     transition: 2s;
 }
+
+
+.announcement{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.announcer{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 12px;
+}
+
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6)
+}
+
+.background-img{
+    width: 1280px;
+    height: 256px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
