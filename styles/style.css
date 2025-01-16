@@ -23,9 +23,12 @@
 
 /* shared style */
 
-*{
+body{
     font-family: "Fira Sans", serif;
-    
+    background-color: rgba(241, 241, 243, 1);
+}
+.second-bg{
+    background-color: #FFFFFF;
 }
 
 .btn-primary{
@@ -106,6 +109,12 @@
     height: 402px;
 
  }
+
+ .text-align{
+    text-align: center;
+ }
+
+
 
 /* --share style finished-- */
 /* banner title style */
@@ -269,4 +278,40 @@
 .news-box{
     margin-left: -48px;
    
+}
+.donate-amount-option{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 32px;
+    margin-left: 264.5px;
+}
+
+
+.donate-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.donate-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.donate-amount{
+    border-radius: 16px;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.donate-common-color{
+    background-color: #FFFFFF;
+    
+}
+
+#donate-color-2{
+    background-color: rgba(198, 228, 214, 1) ;
 }
