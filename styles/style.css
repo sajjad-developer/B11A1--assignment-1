@@ -445,7 +445,7 @@ button:hover{
     transition: 2s;
 }
 
-donate-color-2:hover{
+.donate-color-2:hover{
     background-color: blue;
     transition: 2s;
 }
@@ -478,4 +478,8 @@ donate-color-2:hover{
     background-color: rgba(255, 255, 255, 1);
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
+}
+
+.subscription{
+    background-color: rgba(198, 228, 214, 1);
 }
