@@ -445,7 +445,7 @@ button:hover{
     transition: 2s;
 }
 
-.donate-color-2:hover{
+#donate-color-2:hover{
     background-color: blue;
     transition: 2s;
 }
