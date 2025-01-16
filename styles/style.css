@@ -26,6 +26,7 @@
 body{
     font-family: "Fira Sans", serif;
     background-color: rgba(241, 241, 243, 1);
+    height: 100vh;
 }
 .second-bg{
     background-color: #FFFFFF;
@@ -73,6 +74,8 @@ body{
 
 .container-shape{
     border-radius: 16px;
+    width: 410.67px;
+    height: 325px;
 }
 
 .card-name{
@@ -208,6 +211,7 @@ body{
 
  #btn-decoration-2{
     background-color: rgba(9, 161, 92, 1);
+   
  }
 
  #btn-decoration-3{
@@ -355,4 +359,62 @@ body{
 .news-box{
     margin-left: 8px;
     margin-right: 22px;
+}
+
+.subscription{
+    padding: 80px 265px;
+}
+
+
+.subscription-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.subscription-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+
+form input{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    width: 600px;
+    height: 54px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(14, 14, 14, 0.3);
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+form button{
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    height: 93px;
+}
+
+form{
+    position: relative;
+}
+
+button{
+    position: absolute;
+}
+
+form input[type="text"]::placeholder{
+    text-align: left;
+}
+
+.not-spam{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
 }
